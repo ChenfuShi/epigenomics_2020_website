@@ -1,0 +1,5 @@
+relativeURLS=true
+languageCode = "en-us"
+title = "My very first New Hugo Site"
+theme = "ananke"
+publishdir="./docs"
