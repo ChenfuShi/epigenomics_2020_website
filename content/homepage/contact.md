@@ -1,11 +1,12 @@
 ---
 title: "Contact"
-weight: 4
+weight: 100
 header_menu: true
 ---
 
-{{<icon class="fa fa-envelope">}}&nbsp;[mail@janedoe.com](mailto:your-email@your-domain.com)
+This website was created by Chenfu Shi to display the poster presented at the Wellcome Virtual Conference "Epigenomics of Common Diseases"
 
-{{<icon class="fa fa-phone">}}&nbsp;[+49 1111 555555](tel:+491111555555)
+For more information contact:
+{{<icon class="fa fa-envelope">}}&nbsp;[chenfu.shi@postgrad.manchester.ac.uk](mailto:chenfu.shi@postgrad.manchester.ac.uk)
 
-Let us get in touch!
+
