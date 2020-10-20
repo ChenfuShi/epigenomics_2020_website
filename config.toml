@@ -28,7 +28,7 @@ title = "Chromatin looping links target genes with genetic risk loci for dermato
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    # images = ["images/figure_1.jpg"]
+    images = ["images/figure_1.png"]
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
