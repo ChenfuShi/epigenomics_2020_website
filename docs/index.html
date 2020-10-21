@@ -113,6 +113,18 @@
             
                  <a class='btn site-menu' data-title-anchor='pathways'>Pathways</a>
             
+                 <a class='btn site-menu' data-title-anchor='ets1'>ETS1</a>
+            
+                 <a class='btn site-menu' data-title-anchor='satb1'>SATB1</a>
+            
+                 <a class='btn site-menu' data-title-anchor='irf4'>IRF4</a>
+            
+                 <a class='btn site-menu' data-title-anchor='grhl3'>GRHL3</a>
+            
+                 <a class='btn site-menu' data-title-anchor='foxo1'>FOXO1</a>
+            
+                 <a class='btn site-menu' data-title-anchor='conclusion'>Conclusion</a>
+            
                  <a class='btn site-menu' data-title-anchor='contact'>Contact</a>
             
             <i id='header-arrow' class="fa fa-angle-down"></i>
@@ -130,8 +142,8 @@
                     <h2 class="post-title" style="display:none">Introduction</h2>
                 </header>
                 <section class="post-content">
-                    <h3 id="welcome">Welcome</h3>
-<p>This website describes the results from our preprint available on <a href="https://www.biorxiv.org/content/10.1101/2020.03.05.973271v2">BioRxiv</a>.</p>
+                    <h2 id="welcome">Welcome</h2>
+<p>This website summarizes the main results from our preprint available on <a href="https://www.biorxiv.org/content/10.1101/2020.03.05.973271v2">BioRxiv</a>.</p>
 <p>It was written by Chenfu Shi as an addition to the poster presented at the Wellcome Epigenomics of Common Diseases 2020 online conference to make our results clearer and more accessible.</p>
 <h5 id="functional-genomics-of-common-diseases">Functional genomics of common diseases</h5>
 <p>Genome Wide Association Studies (GWAS)  have linked a large number of genetic variants to psoriasis and other complex diseases. These variants however do not directly affect the coding region of genes but instead often lie in regulatory regions such as enhancers. These can that act through long range mechanisms and it may therefore be difficult to assign them to a specific gene. Moreover, regulatory regions are highly dynamic and context specific, requiring us to study them in disease relevant tissues and samples.</p>
@@ -175,6 +187,99 @@
                 <section class="post-content">
                     <p>We used our datasets to link genes to disease associated loci from 5 dermatological conditions. This results in between 84 and 399 potentially linked genes identified for each disease studied. Below you can see that these genes strongly enriched for disease relevant pathways.</p>
 <p><img src="images/pathways.png" alt="pathways figure"></p>
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='ets1' class='post '>
+                <header class="post-header">
+                    <h2 class="post-title" style="display:none">ETS1</h2>
+                </header>
+                <section class="post-content">
+                    <h5 id="using-these-datasets-to-investigate-the-underlying-mechanisms-in-disease-associated-loci">Using these datasets to investigate the underlying mechanisms in disease associated loci</h5>
+<p>We first looked at the ETS1 locus in particular. Here psoriasis and atopic dermatitis have distinct associations. However, whilst the psoriasis associated variants overlap the promoter of ETS1 directly, the association with atopic dermatitis is located 130 kb downstream of the gene.</p>
+<p>Using our HiChIP interactions we can link the atopic dermatitis associated variants with the ETS1 promoter. This suggests a putative mechanism in which these two disting associations are mediated by a single gene.</p>
+<p><img src="images/ETS1.png" alt="ETS1 figure"></p>
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='satb1' class='post '>
+                <header class="post-header">
+                    <h2 class="post-title" style="display:none">SATB1</h2>
+                </header>
+                <section class="post-content">
+                    <h5 id="linking-genes-with-psoriasis-loci">Linking genes with psoriasis loci</h5>
+<p>We then focused on 4 psoriasis loci which show previously unknown candidate genes.</p>
+<p>The first one is the SATB1 locus. Here we link the psoriasis SNP rs73178598 to SATB1 which is located 240kb away.
+This gene is an important regulator of regulatory T cells and autoimmunity.</p>
+<p><img src="images/SATB1.png" alt="SATB1 figure"></p>
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='irf4' class='post '>
+                <header class="post-header">
+                    <h2 class="post-title" style="display:none">IRF4</h2>
+                </header>
+                <section class="post-content">
+                    <p>The Ps loci indexed by SNP rs9504361 is intronic to EXOC2 and is typically associated with this gene. Here we show long-range interactions between this SNP and the promoters of IRF4 and DUSP22.</p>
+<p><img src="images/IRF4.png" alt="IRF4 figure"></p>
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='grhl3' class='post '>
+                <header class="post-header">
+                    <h2 class="post-title" style="display:none">GRHL3</h2>
+                </header>
+                <section class="post-content">
+                    <p>Another example of a novel gene target can be found at the 1p36 locus (rs10794648), which to-date has been associated with IFNLR1. However, our HiChIP data showed long-range interactions between the Ps SNPs at 1p36 and the distal gene GRHL3 primarily in HaCaT keratinocytes. GRHL3 encodes a transcription factor which stimulates keratinocyte migration and has previously been independently linked to psoriasis.</p>
+<p><img src="images/GRHL3.png" alt="GRHL3 figure"></p>
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='foxo1' class='post '>
+                <header class="post-header">
+                    <h2 class="post-title" style="display:none">FOXO1</h2>
+                </header>
+                <section class="post-content">
+                    <p>Finally, the locus indexed by the Ps SNP rs73183592 with previously undescribed mechanism was linked via a long-range interaction spanning about 500 kb to FOXO1 a gene with important functions in regulatory T cells.</p>
+<p><img src="images/FOXO1.png" alt="FOXO1 figure"></p>
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='conclusion' class='post '>
+                <header class="post-header">
+                    <h2 class="post-title" style="display:none">Conclusion</h2>
+                </header>
+                <section class="post-content">
+                    <h2 id="conclusion">Conclusion</h2>
+<p>Chromatin conformation and functional genomics studies have the potential to uncover the underlying mechanisms that drive the disease susceptibility of many complex traits. Here we used H3K27ac HiChIP, a novel technique that allows combined analysis of both chromatin conformation and chromatin activity, to create the first global study of promoter-enhancer interactions in keratinocyte and CD8+ T cell lines.</p>
+<p>We use this data to explore disease associated SNPs for Psoriatic Arthritis, Psoriasis, Atopic Dermatitis, Melanoma and Systemic Sclerosis, and identify all the genes that are linked by chromatin interactions to these variants. All of these results are available on the bioRxiv preprint and further updates will come when our article is published.</p>
+<p>The HiChIP gene targets have the potential to be used as therapeutic targets in drug repurposing and discovery, as recently applied for other diseases. However, whilst the techniques used in this study are an important strategy to identify potential candidate genes, they require further individual experimental validation (such as genetic perturbation techniques) before they can be used for drug targeting.</p>
+<p>Regardless, we hope that these genes and mechanisms identified here represent a useful resource for further research aimed at characterising how genetic variation impacts on disease susceptibility for these and other complex diseases.</p>
+<p><strong>Thank you for reading!</strong></p>
 
                 </section>
             </article>

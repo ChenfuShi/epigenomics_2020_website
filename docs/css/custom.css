@@ -22,6 +22,14 @@
 }
 
 .post-holder.odd {
-    background:#a3b3d9;
+    background:#c5d2ef;
     color:#222;
+}
+
+#site-head-content  a.btn:last-of-type {
+    background-color: #b80135;
+}
+
+#site-head-content  a.btn:last-of-type:hover {
+    background-color: #dc285b;
 }

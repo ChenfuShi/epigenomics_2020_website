@@ -4,8 +4,8 @@ weight: 1
 header_menu: True
 ---
 
-### Welcome
-This website describes the results from our preprint available on [BioRxiv](https://www.biorxiv.org/content/10.1101/2020.03.05.973271v2). 
+## Welcome
+This website summarizes the main results from our preprint available on [BioRxiv](https://www.biorxiv.org/content/10.1101/2020.03.05.973271v2). 
 
 It was written by Chenfu Shi as an addition to the poster presented at the Wellcome Epigenomics of Common Diseases 2020 online conference to make our results clearer and more accessible.
 
